@@ -379,6 +379,7 @@ img {
   margin-bottom: 2rem;
 }
 .projects__wrapper {
+  background: var(--light);
   display: grid;
   grid-template-columns: 30rem 30rem 30rem;
   align-content: center;
@@ -386,12 +387,13 @@ img {
   gap: 3rem;
 }
 .projects__card {
-  background-color: var(--gray);
+  background-image: url(/img/p1.jpg);
   border-radius: rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 50rem;
 }
 .projects__card p {
   color: var(--light);
